@@ -1,0 +1,32 @@
+[
+  {
+    "id": "esc_001",
+    "enquiryId": "enq_001",
+    "customer": "Sarah Mitchell",
+    "channel": "whatsapp",
+    "reason": "Pricing complaint — requested to speak with manager",
+    "urgency": "high",
+    "createdAt": "2026-05-24T08:20:00Z",
+    "resolved": false
+  },
+  {
+    "id": "esc_002",
+    "enquiryId": "enq_005",
+    "customer": "Amanda Sterling",
+    "channel": "email",
+    "reason": "Unsatisfied service refund demand",
+    "urgency": "high",
+    "createdAt": "2026-05-23T16:30:00Z",
+    "resolved": false
+  },
+  {
+    "id": "esc_003",
+    "enquiryId": "enq_004",
+    "customer": "Marcus Vance",
+    "channel": "call",
+    "reason": "Voice dialer callback request",
+    "urgency": "medium",
+    "createdAt": "2026-05-24T09:10:00Z",
+    "resolved": true
+  }
+]

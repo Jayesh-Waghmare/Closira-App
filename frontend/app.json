@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Closira",
+    "slug": "closira",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.closira.app"
+    },
+    "android": {
+      "package": "com.closira.app"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "jsEngine": "hermes"
+  }
+}

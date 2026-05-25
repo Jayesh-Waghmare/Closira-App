@@ -1,0 +1,220 @@
+[
+  {
+    "id": "msg_001",
+    "enquiryId": "enq_001",
+    "sender": "customer",
+    "text": "Hi, I just received the quote for the kitchen tiling and renovation.",
+    "timestamp": "2026-05-24T08:10:00Z"
+  },
+  {
+    "id": "msg_002",
+    "enquiryId": "enq_001",
+    "sender": "ai",
+    "text": "Hello Sarah! Thanks for reaching out. Our estimator sent that over this morning. What do you think?",
+    "timestamp": "2026-05-24T08:11:00Z"
+  },
+  {
+    "id": "msg_003",
+    "enquiryId": "enq_001",
+    "sender": "customer",
+    "text": "Honestly, it's way higher than expected. It is almost 30% above the local market rate.",
+    "timestamp": "2026-05-24T08:12:00Z"
+  },
+  {
+    "id": "msg_004",
+    "enquiryId": "enq_001",
+    "sender": "ai",
+    "text": "We completely understand your concerns. Our materials and labor warrant a higher standard, but we'd love to review the numbers with you.",
+    "timestamp": "2026-05-24T08:13:00Z"
+  },
+  {
+    "id": "msg_005",
+    "enquiryId": "enq_001",
+    "sender": "customer",
+    "text": "I got your quote and honestly it's way above what I expected. Can I talk to someone senior?",
+    "timestamp": "2026-05-24T08:14:00Z"
+  },
+  {
+    "id": "msg_006",
+    "enquiryId": "enq_001",
+    "sender": "ai",
+    "text": "I will escalate this immediately to the branch manager so they can call you directly.",
+    "timestamp": "2026-05-24T08:15:00Z"
+  },
+  {
+    "id": "msg_007",
+    "enquiryId": "enq_002",
+    "customer": "David Chen",
+    "sender": "customer",
+    "text": "Hey there, what are your opening hours on Saturdays?",
+    "timestamp": "2026-05-24T09:25:00Z"
+  },
+  {
+    "id": "msg_008",
+    "enquiryId": "enq_002",
+    "sender": "ai",
+    "text": "Hi David! We are open on Saturdays from 9:00 AM to 2:00 PM for consultations. Weekdays we run 8:00 AM to 6:00 PM.",
+    "timestamp": "2026-05-24T09:26:00Z"
+  },
+  {
+    "id": "msg_009",
+    "enquiryId": "enq_002",
+    "sender": "customer",
+    "text": "Great, do you have any open slots this Saturday around 11:00 AM?",
+    "timestamp": "2026-05-24T09:28:00Z"
+  },
+  {
+    "id": "msg_010",
+    "enquiryId": "enq_002",
+    "sender": "ai",
+    "text": "Let me check our calendar... Yes! We have one opening at 11:00 AM. Would you like me to book it?",
+    "timestamp": "2026-05-24T09:29:00Z"
+  },
+  {
+    "id": "msg_011",
+    "enquiryId": "enq_002",
+    "sender": "customer",
+    "text": "Yes, please. What documents do I need to bring?",
+    "timestamp": "2026-05-24T09:30:00Z"
+  },
+  {
+    "id": "msg_012",
+    "enquiryId": "enq_003",
+    "sender": "customer",
+    "text": "Hello, I am interested in booking an onboarding call next week.",
+    "timestamp": "2026-05-24T07:40:00Z"
+  },
+  {
+    "id": "msg_013",
+    "enquiryId": "enq_003",
+    "sender": "ai",
+    "text": "Hi Priya! We would love to set that up. Do you prefer morning or afternoon?",
+    "timestamp": "2026-05-24T07:41:00Z"
+  },
+  {
+    "id": "msg_014",
+    "enquiryId": "enq_003",
+    "sender": "customer",
+    "text": "Mornings work best for me. Sometime Monday morning if possible?",
+    "timestamp": "2026-05-24T07:42:00Z"
+  },
+  {
+    "id": "msg_015",
+    "enquiryId": "enq_003",
+    "sender": "ai",
+    "text": "Perfect. We have a slot on Monday at 9:30 AM. Does that work?",
+    "timestamp": "2026-05-24T07:43:00Z"
+  },
+  {
+    "id": "msg_016",
+    "enquiryId": "enq_003",
+    "sender": "customer",
+    "text": "Yes, 9:30 AM works. Can you send the email confirmation?",
+    "timestamp": "2026-05-24T07:45:00Z"
+  },
+  {
+    "id": "msg_017",
+    "enquiryId": "enq_004",
+    "sender": "customer",
+    "text": "Hi, I need a brochure on your commercial plumbing services.",
+    "timestamp": "2026-05-24T09:00:00Z"
+  },
+  {
+    "id": "msg_018",
+    "enquiryId": "enq_004",
+    "sender": "ai",
+    "text": "Hello Marcus! I can help with that. Can you provide your company email?",
+    "timestamp": "2026-05-24T09:01:00Z"
+  },
+  {
+    "id": "msg_019",
+    "enquiryId": "enq_004",
+    "sender": "customer",
+    "text": "Sure, it is marcus.vance@vanceplumbing.com.",
+    "timestamp": "2026-05-24T09:03:00Z"
+  },
+  {
+    "id": "msg_020",
+    "enquiryId": "enq_004",
+    "sender": "ai",
+    "text": "Thank you! I will mail that over right away. Would you also like a call back?",
+    "timestamp": "2026-05-24T09:04:00Z"
+  },
+  {
+    "id": "msg_021",
+    "enquiryId": "enq_004",
+    "sender": "customer",
+    "text": "Yes, have a rep call me back around 11:00 AM today.",
+    "timestamp": "2026-05-24T09:05:00Z"
+  },
+  {
+    "id": "msg_022",
+    "enquiryId": "enq_005",
+    "sender": "customer",
+    "text": "I am writing to demand a full refund for yesterday's office cleaning.",
+    "timestamp": "2026-05-23T16:10:00Z"
+  },
+  {
+    "id": "msg_023",
+    "enquiryId": "enq_005",
+    "sender": "ai",
+    "text": "Hello Amanda, I am very sorry to hear that you are unsatisfied. May I know what happened?",
+    "timestamp": "2026-05-23T16:12:00Z"
+  },
+  {
+    "id": "msg_024",
+    "enquiryId": "enq_005",
+    "sender": "customer",
+    "text": "The workers completely missed cleaning the master bedroom and left dirt in the hallways.",
+    "timestamp": "2026-05-23T16:15:00Z"
+  },
+  {
+    "id": "msg_025",
+    "enquiryId": "enq_005",
+    "sender": "ai",
+    "text": "That is definitely not our standard. I am escalating this to our billing supervisor to review your refund claim.",
+    "timestamp": "2026-05-23T16:18:00Z"
+  },
+  {
+    "id": "msg_026",
+    "enquiryId": "enq_005",
+    "sender": "customer",
+    "text": "Please make sure this is handled today. I don't want to wait until next week.",
+    "timestamp": "2026-05-23T16:20:00Z"
+  },
+  {
+    "id": "msg_027",
+    "enquiryId": "enq_006",
+    "sender": "customer",
+    "text": "Hi, what are your callout rates for a residential electrical check?",
+    "timestamp": "2026-05-24T06:01:00Z"
+  },
+  {
+    "id": "msg_028",
+    "enquiryId": "enq_006",
+    "sender": "ai",
+    "text": "Hello Carlos! Our standard dispatch rate is $85, which includes the first 30 minutes of diagnostics.",
+    "timestamp": "2026-05-24T06:03:00Z"
+  },
+  {
+    "id": "msg_029",
+    "enquiryId": "enq_006",
+    "sender": "customer",
+    "text": "Okay, that sounds fair. Do you have any electricians free this afternoon?",
+    "timestamp": "2026-05-24T06:05:00Z"
+  },
+  {
+    "id": "msg_030",
+    "enquiryId": "enq_006",
+    "sender": "ai",
+    "text": "We have an opening between 2:00 PM and 4:00 PM today. Does that range work?",
+    "timestamp": "2026-05-24T06:08:00Z"
+  },
+  {
+    "id": "msg_031",
+    "enquiryId": "enq_006",
+    "sender": "customer",
+    "text": "Yes, lock that slot in please. Name is Carlos.",
+    "timestamp": "2026-05-24T06:10:00Z"
+  }
+]

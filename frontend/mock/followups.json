@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fu_001",
+    "enquiryId": "enq_005",
+    "customer": "Amanda Sterling",
+    "channel": "email",
+    "dueAt": "2026-05-23T14:00:00Z",
+    "messagePreview": "Hi Amanda, following up on your billing query. I wanted to see if we can schedule a reclean...",
+    "done": false
+  },
+  {
+    "id": "fu_002",
+    "enquiryId": "enq_003",
+    "customer": "Priya Patel",
+    "channel": "email",
+    "dueAt": "2026-05-24T08:00:00Z",
+    "messagePreview": "Hi Priya, confirming our booking request details for next Monday onboarding call.",
+    "done": true
+  },
+  {
+    "id": "fu_003",
+    "enquiryId": "enq_002",
+    "customer": "David Chen",
+    "channel": "whatsapp",
+    "dueAt": "2026-05-24T18:00:00Z",
+    "messagePreview": "Hi David, sending over our booking rates and calendar link as requested.",
+    "done": false
+  },
+  {
+    "id": "fu_004",
+    "enquiryId": "enq_006",
+    "customer": "Carlos Garcia",
+    "channel": "whatsapp",
+    "dueAt": "2026-05-25T10:00:00Z",
+    "messagePreview": "Hi Carlos, checking in to see if you have any questions about the residential electrical rates...",
+    "done": false
+  }
+]

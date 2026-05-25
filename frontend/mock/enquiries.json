@@ -1,0 +1,58 @@
+[
+  {
+    "id": "enq_001",
+    "customer": "Sarah Mitchell",
+    "channel": "whatsapp",
+    "status": "escalated",
+    "reason": "Pricing complaint — requested to speak with manager",
+    "receivedAt": "2026-05-24T08:14:00Z",
+    "sopMatch": "Pricing Enquiry",
+    "summary": "Customer received quote for home renovation, felt it was 30% above market rate. Requested manager callback before 5pm."
+  },
+  {
+    "id": "enq_002",
+    "customer": "David Chen",
+    "channel": "whatsapp",
+    "status": "new",
+    "receivedAt": "2026-05-24T09:30:00Z",
+    "sopMatch": "General Info Request",
+    "summary": "Inquired about business operating hours and weekend consultation slots."
+  },
+  {
+    "id": "enq_003",
+    "customer": "Priya Patel",
+    "channel": "email",
+    "status": "qualified",
+    "receivedAt": "2026-05-24T07:45:00Z",
+    "sopMatch": "Booking Request",
+    "summary": "Requested to schedule an initial onboarding call for next Monday morning."
+  },
+  {
+    "id": "enq_004",
+    "customer": "Marcus Vance",
+    "channel": "call",
+    "status": "new",
+    "receivedAt": "2026-05-24T09:05:00Z",
+    "sopMatch": "Callback Request",
+    "summary": "Called standard support line asking for a brochure on commercial plumbing services."
+  },
+  {
+    "id": "enq_005",
+    "customer": "Amanda Sterling",
+    "channel": "email",
+    "status": "escalated",
+    "reason": "Refund request with unsatisfied service quality",
+    "receivedAt": "2026-05-23T16:20:00Z",
+    "sopMatch": "Billing SOP",
+    "summary": "Demanding a full refund for the cleaning services completed yesterday, claiming workers missed the master bedroom."
+  },
+  {
+    "id": "enq_006",
+    "customer": "Carlos Garcia",
+    "channel": "whatsapp",
+    "status": "qualified",
+    "receivedAt": "2026-05-24T06:10:00Z",
+    "sopMatch": "Service Enquiry",
+    "summary": "Inquired about residential electrical repair service call rates and availability."
+  }
+]
