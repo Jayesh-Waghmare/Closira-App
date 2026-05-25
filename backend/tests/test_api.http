@@ -1,0 +1,64 @@
+### POST /enquiry — Create a new enquiry
+POST http://localhost:8000/enquiry
+Content-Type: application/json
+
+{
+  "customer_name": "Sarah Mitchell",
+  "channel": "whatsapp",
+  "message": "Hi, I'd like to book an appointment for next week."
+}
+
+###
+
+### POST /enquiry — Pricing question
+POST http://localhost:8000/enquiry
+Content-Type: application/json
+
+{
+  "customer_name": "Raj Patel",
+  "channel": "email",
+  "message": "Can you tell me the price for your premium package?"
+}
+
+###
+
+### POST /enquiry — No SOP match (will escalate)
+POST http://localhost:8000/enquiry
+Content-Type: application/json
+
+{
+  "customer_name": "James Liu",
+  "channel": "call",
+  "message": "Just calling to say hi, nothing specific."
+}
+
+###
+
+### POST /enquiry/{id}/follow-up — Schedule a follow-up (replace {id} with real enquiry id)
+POST http://localhost:8000/enquiry/enq_REPLACE_ME/follow-up
+Content-Type: application/json
+
+{
+  "delay_minutes": 60,
+  "message_template": "Hi {name}, just following up on your appointment request!"
+}
+
+###
+
+### POST /enquiry/{id}/escalate — Manually escalate an enquiry
+POST http://localhost:8000/enquiry/enq_REPLACE_ME/escalate
+Content-Type: application/json
+
+{
+  "reason": "Customer is requesting to speak with a senior manager."
+}
+
+###
+
+### GET /enquiry/{id}/history — Fetch enquiry + timeline
+GET http://localhost:8000/enquiry/enq_REPLACE_ME/history
+
+###
+
+### GET /health — Health check
+GET http://localhost:8000/health
