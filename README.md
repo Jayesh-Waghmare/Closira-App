@@ -32,3 +32,6 @@ As much as I love how this is coming together, there are a couple of honest limi
 First, the SQLite database is fantastic for getting off the ground, but it isn't built for heavy concurrent write loads. If Closira scales to support thousands of active businesses simultaneously, we will absolutely need to migrate to Postgres. 
 
 Second, while both the frontend and backend are fully functional on their own, they aren't fully wired up to each other just yet. The frontend relies heavily on a robust mock data context to demonstrate the complex UI states (like overdue follow-ups and resolved escalations) without requiring you to manually seed a database first. Tying the React Native app directly to the FastAPI endpoints is the logical next step.
+
+Name - Jayesh Waghmare
+Email - jayeshw145@gmail.com
