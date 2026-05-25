@@ -4,6 +4,9 @@ Hey there! Welcome to the codebase for Closira. I built this platform because sm
 
 This repository holds everything you need to get the app running, split cleanly into a Python backend and a React Native frontend.
 
+## Video Submission Link
+https://drive.google.com/file/d/1_FAbv7SgN92-ibFQRbfJZblvz6E3frDc/view?usp=sharing
+
 ## Why I Chose This Stack
 
 When putting this together, I had to make a few opinionated choices to keep things moving fast but maintain a high level of quality.
