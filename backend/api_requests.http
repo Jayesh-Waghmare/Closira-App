@@ -1,0 +1,55 @@
+### Closira API Test File (REST Client / IntelliJ)
+
+# Variables
+@baseUrl = http://localhost:8000
+# Note: After creating an enquiry, copy the returned job_id (e.g. enq_1234abcd) 
+# and use it in the {id} path variables below.
+@enquiryId = REPLACE_WITH_JOB_ID
+
+### 1. Health Check
+GET {{baseUrl}}/health
+Accept: application/json
+
+### 2. Create a New Enquiry (Booking SOP)
+POST {{baseUrl}}/enquiry
+Content-Type: application/json
+
+{
+  "channel": "whatsapp",
+  "customer_name": "Sarah Connor",
+  "message": "I would like to book an appointment for tomorrow please."
+}
+
+### 3. Create a New Enquiry (Complaint / Escalate automatically)
+POST {{baseUrl}}/enquiry
+Content-Type: application/json
+
+{
+  "channel": "email",
+  "customer_name": "John Smith",
+  "message": "This is unacceptable, I demand a refund immediately."
+}
+
+### 4. Schedule a Follow-up
+# Replace @enquiryId variable at the top with a real ID first
+POST {{baseUrl}}/enquiry/{{enquiryId}}/follow-up
+Content-Type: application/json
+
+{
+  "delay_minutes": 15,
+  "message_template": "Hey, just following up on your request. Are you still interested?"
+}
+
+### 5. Manually Escalate an Enquiry
+# Replace @enquiryId variable at the top with a real ID first
+POST {{baseUrl}}/enquiry/{{enquiryId}}/escalate
+Content-Type: application/json
+
+{
+  "reason": "Customer became irate on the phone."
+}
+
+### 6. Get Enquiry History & Timeline
+# Replace @enquiryId variable at the top with a real ID first
+GET {{baseUrl}}/enquiry/{{enquiryId}}/history
+Accept: application/json
